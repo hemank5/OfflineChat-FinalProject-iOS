@@ -1,6 +1,3 @@
-Project Report
-Project:  OfflineChat
-Submitted by: Hemank Narula
 
 Final Project Description and Documentation: 
 Application is based on Offline Chat system where iOS users can interact with
