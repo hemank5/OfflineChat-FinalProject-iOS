@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		73B5D30D1EE510E6001CFFF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B5D30C1EE510E6001CFFF5 /* AppDelegate.swift */; };
-		73B5D30F1EE510E6001CFFF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B5D30E1EE510E6001CFFF5 /* ViewController.swift */; };
 		73B5D3121EE510E6001CFFF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B5D3101EE510E6001CFFF5 /* Main.storyboard */; };
 		73B5D3141EE510E6001CFFF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B5D3131EE510E6001CFFF5 /* Assets.xcassets */; };
 		73B5D3171EE510E6001CFFF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B5D3151EE510E6001CFFF5 /* LaunchScreen.storyboard */; };
 		73B5D3221EE510E6001CFFF5 /* OfflineChat_FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B5D3211EE510E6001CFFF5 /* OfflineChat_FinalProjectTests.swift */; };
 		73B5D32D1EE510E6001CFFF5 /* OfflineChat_FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B5D32C1EE510E6001CFFF5 /* OfflineChat_FinalProjectUITests.swift */; };
+		73B5D33B1EE51921001CFFF5 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B5D33A1EE51921001CFFF5 /* ChatManager.swift */; };
+		73B5D33D1EE51A89001CFFF5 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B5D33C1EE51A89001CFFF5 /* ChatViewController.swift */; };
+		73B5D33F1EE51C5E001CFFF5 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B5D33E1EE51C5E001CFFF5 /* ChatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		73B5D3091EE510E6001CFFF5 /* OfflineChat-FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OfflineChat-FinalProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B5D30C1EE510E6001CFFF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73B5D30E1EE510E6001CFFF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		73B5D3111EE510E6001CFFF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73B5D3131EE510E6001CFFF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73B5D3161EE510E6001CFFF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,9 @@
 		73B5D3281EE510E6001CFFF5 /* OfflineChat-FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OfflineChat-FinalProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B5D32C1EE510E6001CFFF5 /* OfflineChat_FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineChat_FinalProjectUITests.swift; sourceTree = "<group>"; };
 		73B5D32E1EE510E6001CFFF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B5D33A1EE51921001CFFF5 /* ChatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		73B5D33C1EE51A89001CFFF5 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		73B5D33E1EE51C5E001CFFF5 /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				73B5D30C1EE510E6001CFFF5 /* AppDelegate.swift */,
-				73B5D30E1EE510E6001CFFF5 /* ViewController.swift */,
+				73B5D33A1EE51921001CFFF5 /* ChatManager.swift */,
 				73B5D3101EE510E6001CFFF5 /* Main.storyboard */,
+				73B5D33C1EE51A89001CFFF5 /* ChatViewController.swift */,
+				73B5D33E1EE51C5E001CFFF5 /* ChatCell.swift */,
 				73B5D3131EE510E6001CFFF5 /* Assets.xcassets */,
 				73B5D3151EE510E6001CFFF5 /* LaunchScreen.storyboard */,
 				73B5D3181EE510E6001CFFF5 /* Info.plist */,
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73B5D30F1EE510E6001CFFF5 /* ViewController.swift in Sources */,
+				73B5D33B1EE51921001CFFF5 /* ChatManager.swift in Sources */,
+				73B5D33D1EE51A89001CFFF5 /* ChatViewController.swift in Sources */,
+				73B5D33F1EE51C5E001CFFF5 /* ChatCell.swift in Sources */,
 				73B5D30D1EE510E6001CFFF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JTGB6ZEKS7;
 				INFOPLIST_FILE = "OfflineChat-FinalProject/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc491.OfflineChat-FinalProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,6 +439,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JTGB6ZEKS7;
 				INFOPLIST_FILE = "OfflineChat-FinalProject/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.depaul.csc491.OfflineChat-FinalProject";
 				PRODUCT_NAME = "$(TARGET_NAME)";
